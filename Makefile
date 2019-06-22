@@ -13,7 +13,9 @@
 
 SUBDIRS = 2014/ \
           \
-          devel/peter/001_test_display/
+          devel/peter/001_test_display/ \
+          \
+          devel/alex/01_display/ devel/alex/02_buttons/
 
 ###############################################################################
 .PHONY: all clean $(SUBDIRS)
