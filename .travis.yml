@@ -1,0 +1,14 @@
+language: C
+sudo: required
+
+before_install:
+before_script:
+script:
+  - ./.travis.sh
+
+notifications:
+  email:
+  # global
+  - info@robosax.de
+  # daniel
+  - secure: QtAQs6q96s1tUMhqEHaqKtSfGBGt+o3UoCVuCpvAC05TfPufBD7Ta7u45n6//CArC2/2Fi51kgrEqhngc90MpMAEgP97yLRTAObZ4fBmdkyj55R3XbX0HhYNKdIfR4ncob721FvQ8KswjPnggnqdqwRoMngWeZEQsSFNhMUphMxrpA1RfNoMXM9VAZNg7xT7X2btsPaDCB3hmRzI3M/QxfL6lRUZi5NV1VMGClK+Oj79zUkoeFJO+fbS4V7HCt+VuKyJnKOSTghK6FqdNi8o34BCCStBlsrTVplWXjJJg196Ml9pXmqOMcJzC/05lsPy3KqQ8nWYwtOo4n3hTcL8+fRPi6f6dvw9tqF5C8784aI2cD9ZE/NoI6jgPmpzGmujWS8NmEkDY0+2lvVGj9xgwettcOPOcqAuCpPys/6NwdyUUiMLWJ1L8hqVsLQkaTMBsDZCXmZ8qqF73eYPw/NODVGG6nKfHfDgfAX5fIehWvI2r9tXtr7ZF3kKvDNA8x700h8iNdxmGajrai46FeDs83NVpafsq4OHZjzkT7a1MO7GHkiEyrI3bJaFYFJcxhYFRUWif+2df/2sGluYW/ytlrU2V9sn1gdj0jaLV3jOW/MO4gCvywSiHsPfCOa9dp5vPTDHigXsoxwYTK37jgILGn5oO5cH3EaqnlcnsjXlyfc=
